@@ -1,3 +1,12 @@
+import os
+import urllib
+import webapp2
+import jinja2
+
+from apiclient.discovery import build
+from optparse import OptionParser
+
+
 from flask import Flask
 app = Flask(__name__)
 app.config['DEBUG'] = True
